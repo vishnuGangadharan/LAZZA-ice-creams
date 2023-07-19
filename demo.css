@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+     /* box-sizing: border-box;
+    border: 1px solid red; */
+    list-style: none;
+
+}
+.navbar-brand img{
+    width: 90px;
+    
+}
+@media (max-width:993px ){
+    .icons{
+        position: absolute;
+        top: 15px;
+        left: 50%;
+        right: 50%;
+        /* background-color: blueviolet; */
+    }
+}
+.carousel{
+   position: sticky;  
+   top: 0;
+}
+.text{
+  font-size: 36px;  
+  text-align: center;
+  margin-top: 40px;
+}
+.row img{
+    width: 200px;
+    height: auto;
+}
+@media  screen and (max-width:768px) {
+    .row img{
+        width: 250px;
+    }
+    
+}
+.row{
+   width: 100%; 
+    text-align: center;
+}
+.footer{
+    list-style: none;  
+}
+.footer,li a{    
+text-decoration: none;
+color: #be9509;
+}
+.footer, li p{
+color: #be9509;
+font-weight: 500;
+margin-top: 20px;
+}
+.whatsapp{
+    position: fixed;
+    top: 476px;
+    right: 10px;
+    animation: shake 0.5s;
+    animation-iteration-count: 20;
+}
+.ice-creams{
+    z-index: 0;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  .last{
+    color: #be9509;
+    font-size: 13px;
+  }
+  @media screen and(min-width:412px){
+    
+  }
+ 
